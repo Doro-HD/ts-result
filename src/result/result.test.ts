@@ -1,5 +1,5 @@
 import { assertEquals } from "jsr:@std/assert";
-import * as result from "./index.ts";
+import * as result from "./result.ts";
 
 Deno.test("Should create ok object with correct data", () => {
   const expectation = { foo: "bar" };
