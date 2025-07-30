@@ -1,5 +1,9 @@
 # TS Result
-Taking inspiration from languages like Rust and Gleam, this package aims to provide a way to return unknown state objects, in other words. Given a function that could throw an error, you can use this package to return a result from that function, no matter if the error was thrown or not.
+
+Taking inspiration from languages like Rust and Gleam, this package aims to
+provide a way to return unknown state objects, in other words. Given a function
+that could throw an error, you can use this package to return a result from that
+function, no matter if the error was thrown or not.
 
 ```typescript
 import { result } from '@doro-hd/result';
@@ -15,7 +19,9 @@ function connectToDB(// params): TResut<DB, string> {
 }
 ```
 
-You would then need to handle this unkown state futher down in your application. The module does contain helper functions for checking the state.
+You would then need to handle this unkown state futher down in your application.
+The module does contain helper functions for checking the state.
+
 ```typescript
 import { result } from '@doro-hd/result';
 

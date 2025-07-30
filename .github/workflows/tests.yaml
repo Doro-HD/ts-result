@@ -27,5 +27,4 @@ jobs:
         with:
           deno-version: v2.x
 
-      - run: deno test index.test.ts
-
+      - run: deno test

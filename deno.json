@@ -8,6 +8,11 @@
 			"src/**/*.test.ts"
 		]
 	},
+	"fmt": {
+		"include": [
+			"src/**/*.ts"
+		]
+	},
 	"tasks": {
 		"dev": "deno run --watch main.ts"
 	},
