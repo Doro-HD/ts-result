@@ -9,6 +9,8 @@
 		]
 	},
 	"fmt": {
+		"semiColons": true,
+		"singleQuote": false,
 		"include": [
 			"src/**/*.ts"
 		]
