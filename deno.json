@@ -1,8 +1,20 @@
 {
 	"name": "@doro-hd/result",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"exports": "./index.ts",
+	"test": {
+		"include": [
+			"src/**/*.test.ts"
+		]
+	},
+	"fmt": {
+		"semiColons": true,
+		"singleQuote": false,
+		"include": [
+			"src/**/*.ts"
+		]
+	},
 	"tasks": {
 		"dev": "deno run --watch main.ts"
 	},
