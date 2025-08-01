@@ -75,7 +75,7 @@ function none(): INone {
  * 	return option.from(user)
  * }
  */
-function from<T>(optional: T | null | undefined) {
+function from<T>(optional: T | null | undefined): TOption<T> {
   switch (optional) {
     case null:
     case undefined:
