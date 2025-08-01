@@ -1,5 +1,5 @@
 import { assertEquals } from "@std/assert";
-import * as option from "./options.ts";
+import * as option from "./option.ts";
 
 Deno.test("Should create a some type object", () => {
   const expectation = { email: "foo" };
